@@ -16,6 +16,7 @@ namespace SampleUsingNLog
       Logger logger = LogManager.GetCurrentClassLogger();
 
       logger.Debug("This is a debug message");
+      logger.Error("This is an error message");
 
       Console.ReadLine();
 
